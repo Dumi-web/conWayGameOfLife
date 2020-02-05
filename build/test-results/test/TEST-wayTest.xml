@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="wayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-05T11:47:23" hostname="Area51s-MacBook-Pro.local" time="0.062">
+  <properties/>
+  <testcase name="gameOfLife()" classname="wayTest" time="0.062"/>
+  <system-out><![CDATA[[+, +, #, +, +, +, +, +, +, +]
+[+, +, #, #, +, +, +, +, +, +]
+[+, +, +, #, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
