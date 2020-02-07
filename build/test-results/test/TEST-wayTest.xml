@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="wayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-05T11:47:23" hostname="Area51s-MacBook-Pro.local" time="0.062">
+<testsuite name="wayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-05T18:03:25" hostname="Area51s-MacBook-Pro.local" time="0.097">
   <properties/>
-  <testcase name="gameOfLife()" classname="wayTest" time="0.062"/>
+  <testcase name="gameOfLife()" classname="wayTest" time="0.097"/>
   <system-out><![CDATA[[+, +, #, +, +, +, +, +, +, +]
 [+, +, #, #, +, +, +, +, +, +]
 [+, +, +, #, +, +, +, +, +, +]
