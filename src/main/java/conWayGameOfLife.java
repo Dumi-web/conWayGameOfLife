@@ -6,6 +6,7 @@ public class conWayGameOfLife {
         String aliveNeighbours = "";
         String out = "#";
         String[][] future = new String[Rows][Cols];
+        StringBuilder results =new StringBuilder();
 
         // Loop through every cell
         for (int l = 0; l < Rows; l++) {
@@ -93,9 +94,10 @@ public class conWayGameOfLife {
                     }
                 }
                         for(String [] a: future){
+                            results.append(Arrays.toString(a)).append("\n");
                             System.out.println(Arrays.toString(a));
                         }
-                    return "completed";
+                    return results.toString();
             }
         }
 

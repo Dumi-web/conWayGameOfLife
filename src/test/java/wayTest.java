@@ -17,7 +17,16 @@ public class wayTest {
     };
     @Test
     public void gameOfLife(){
-        assertEquals("completed", conWayGameOfLife.nextGeneration(grid,10,10));
+        assertEquals("[+, +, #, +, +, +, +, +, +, +]\n" +
+                "[+, +, #, #, +, +, +, +, +, +]\n" +
+                "[+, +, +, #, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n" +
+                "[+, +, +, +, +, +, +, +, +, +]\n",conWayGameOfLife.nextGeneration(grid,10,10));
 
 
     }
